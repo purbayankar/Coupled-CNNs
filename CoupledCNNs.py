@@ -16,10 +16,10 @@ import time
 # 3. weighted summation in the decision level, the weights are determined by their accuracies.
 
 # setting parameters
-DataPath1 = '/home/hrl/PycharmProjects/untitled/HSI+LiDAR/Italy/HSI.mat'
-DataPath2 = '/home/hrl/PycharmProjects/untitled/HSI+LiDAR/Italy/LiDAR.mat'
-TRPath = '/home/hrl/PycharmProjects/untitled/HSI+LiDAR/Italy/TRLabel.mat'
-TSPath = '/home/hrl/PycharmProjects/untitled/HSI+LiDAR/Italy/TSLabel.mat'
+DataPath1 = '/content/IEEE_GRSL_EndNet/HSI_LiDAR_FC/HSI_TrSet.mat'
+DataPath2 = '/content/IEEE_GRSL_EndNet/HSI_LiDAR_FC/LiDAR_TrSet.mat'
+TRPath = '/content/IEEE_GRSL_EndNet/HSI_LiDAR_FC/TrLabel.mat'
+TSPath = '/content/IEEE_GRSL_EndNet/HSI_LiDAR_FC/TeLabel.mat'
 
 seed = 0
 torch.manual_seed(seed)
