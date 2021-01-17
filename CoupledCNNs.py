@@ -44,11 +44,11 @@ TsLabel = io.loadmat(TSPath)
 # TsLabel = TsLabel['TSLabel']
 
 Data = io.loadmat(DataPath1)
-Data = Data['HSI']
+# Data = Data['HSI']
 Data = Data.astype(np.float32)
 
 Data2 = io.loadmat(DataPath2)
-Data2 = Data2['LiDAR']
+# Data2 = Data2['LiDAR']
 Data2 = Data2.astype(np.float32)
 
 
