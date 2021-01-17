@@ -40,8 +40,8 @@ NC = 20
 
 TrLabel = io.loadmat(TRPath)
 TsLabel = io.loadmat(TSPath)
-TrLabel = TrLabel['TRLabel']
-TsLabel = TsLabel['TSLabel']
+# TrLabel = TrLabel['TRLabel']
+# TsLabel = TsLabel['TSLabel']
 
 Data = io.loadmat(DataPath1)
 Data = Data['HSI']
