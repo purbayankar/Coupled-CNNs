@@ -40,15 +40,15 @@ NC = 20
 
 TrLabel = io.loadmat(TRPath)
 TsLabel = io.loadmat(TSPath)
-# TrLabel = TrLabel['TRLabel']
-# TsLabel = TsLabel['TSLabel']
+TrLabel = TrLabel['TrLabel']
+TsLabel = TsLabel['TeLabel']
 
 Data = io.loadmat(DataPath1)
-# Data = Data['HSI']
+Data = Data['HSI_TrSet']
 Data = Data.astype(np.float32)
 
 Data2 = io.loadmat(DataPath2)
-# Data2 = Data2['LiDAR']
+Data2 = Data2['LiDAR_TrSet']
 Data2 = Data2.astype(np.float32)
 
 
