@@ -54,6 +54,7 @@ Data2 = Data2.astype(np.float32)
 
 # normalization method 1: map to [0, 1]
 print(Data.shape)
+print(Data2.shape)
 [m, n, l] = Data.shape
 for i in range(l):
     minimal = Data[:, :, i].min()
